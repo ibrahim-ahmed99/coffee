@@ -1,0 +1,585 @@
+/* line 1, ../sass/style.scss */
+.body {
+  background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/bg.jpg") center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* line 8, ../sass/style.scss */
+:root {
+  --daek-color: #212529;
+}
+
+/* line 12, ../sass/style.scss */
+.head {
+  background-color: rgba(47, 23, 15, 0.9);
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  transition: all 0.5s;
+  margin-top: 20%;
+  position: absolute;
+}
+/* line 21, ../sass/style.scss */
+.head ul {
+  padding: 0;
+}
+/* line 24, ../sass/style.scss */
+.head .navbar-brand {
+  color: #e6a756;
+  font-weight: 700;
+  font-size: 22px;
+}
+/* line 29, ../sass/style.scss */
+.head .nav-item {
+  padding: 15px 18px 0;
+}
+/* line 31, ../sass/style.scss */
+.head .nav-item a {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 800;
+}
+/* line 34, ../sass/style.scss */
+.head .nav-item a:hover {
+  color: rgba(255, 255, 255, 0.4);
+  background-color: transparent;
+}
+
+/* line 42, ../sass/style.scss */
+.main-section {
+  padding: 80px 0;
+  position: relative;
+}
+/* line 45, ../sass/style.scss */
+.main-section p {
+  color: #e6a756;
+  font-size: 28px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-align: center;
+}
+/* line 52, ../sass/style.scss */
+.main-section h1 {
+  font-size: 7rem;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  font-weight: 100;
+  line-height: 4rem;
+  color: #f6e1c5;
+  text-align: center;
+}
+
+/* line 63, ../sass/style.scss */
+.visit-section {
+  padding: 90px 0;
+}
+/* line 65, ../sass/style.scss */
+.visit-section .visit-content {
+  padding: 70px 0;
+  position: relative;
+}
+/* line 68, ../sass/style.scss */
+.visit-section .visit-content .intro {
+  max-width: 100%;
+  border-radius: 1%;
+}
+/* line 72, ../sass/style.scss */
+.visit-section .visit-content .card {
+  background-color: #f6e1c5;
+  width: 170%;
+  border-radius: 2%;
+  height: 70%;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: 8%;
+  left: 15%;
+}
+/* line 84, ../sass/style.scss */
+.visit-section .visit-content .card-body .span {
+  display: block;
+  font-size: 3.5rem;
+  line-height: 1.1;
+  font-weight: 100;
+}
+/* line 90, ../sass/style.scss */
+.visit-section .visit-content .card-body h5 {
+  color: #212529;
+  font-weight: 700;
+  font-size: 17px;
+}
+/* line 95, ../sass/style.scss */
+.visit-section .visit-content .card-body p {
+  line-height: 1.75;
+  color: #212529;
+  font-size: 17px;
+  margin: auto;
+  max-width: 85%;
+}
+/* line 102, ../sass/style.scss */
+.visit-section .visit-content .card-body .btn {
+  font-weight: 700;
+  font-size: 12px;
+  box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 25px 30px;
+  border-radius: 4px;
+  transition: 0.3s;
+  color: #000;
+  background: #e6a756;
+  border: 2px solid #e6a756;
+}
+/* line 114, ../sass/style.scss */
+.visit-section .visit-content .card-body .btn a {
+  color: #000;
+}
+/* line 116, ../sass/style.scss */
+.visit-section .visit-content .card-body .btn a:hover {
+  text-decoration: none;
+}
+/* line 120, ../sass/style.scss */
+.visit-section .visit-content .card-body .btn:hover {
+  background: #eab46f;
+  border: #eab46f;
+}
+
+/* line 129, ../sass/style.scss */
+.promise-section {
+  padding: 80px 0;
+  background-color: rgba(230, 167, 86, 0.9);
+  position: relative;
+  margin: 0 0 6% 0;
+}
+/* line 134, ../sass/style.scss */
+.promise-section .promise-content {
+  background-color: #f6e1c5;
+  text-align: center;
+  max-width: 75%;
+  margin: auto;
+  border-radius: 1%;
+  padding: 50px 0;
+  outline-style: solid;
+  outline-color: #e5ac63;
+  outline-width: thick;
+}
+/* line 144, ../sass/style.scss */
+.promise-section .promise-content h5 {
+  color: #212529;
+  font-weight: 700;
+  font-size: 17px;
+}
+/* line 149, ../sass/style.scss */
+.promise-section .promise-content .span {
+  line-height: 0.6;
+  letter-spacing: 5px;
+  font-size: 40px;
+  display: block;
+  font-weight: 100;
+}
+/* line 156, ../sass/style.scss */
+.promise-section .promise-content p {
+  font-size: 17px;
+  max-width: 90%;
+  margin: auto;
+}
+
+/* line 164, ../sass/style.scss */
+.about-section {
+  padding: 150px 0 0 0;
+}
+/* line 167, ../sass/style.scss */
+.about-section .about-content .card {
+  background-color: #f6e1c5;
+  width: 115%;
+  border-radius: 2%;
+  text-align: left;
+  z-index: 1;
+  top: -20%;
+  left: 17%;
+}
+/* line 176, ../sass/style.scss */
+.about-section .about-content .card-body {
+  margin: auto;
+  max-width: 90%;
+}
+/* line 179, ../sass/style.scss */
+.about-section .about-content .card-body .span {
+  display: block;
+  font-size: 4rem;
+  line-height: 1.3;
+  font-weight: 100;
+}
+/* line 185, ../sass/style.scss */
+.about-section .about-content .card-body h5 {
+  color: #212529;
+  font-weight: 700;
+  font-size: 17px;
+}
+/* line 190, ../sass/style.scss */
+.about-section .about-content .card-body p {
+  line-height: 1.75;
+  color: #212529;
+  font-size: 17px;
+  margin: 3% 0;
+}
+/* line 197, ../sass/style.scss */
+.about-section .about-content .about {
+  max-width: 100%;
+}
+
+/* line 203, ../sass/style.scss */
+.products-section {
+  padding: 300px 0 250px 0;
+  position: relative;
+}
+/* line 206, ../sass/style.scss */
+.products-section .second-pro {
+  margin: 35% 0 35% 0;
+}
+/* line 209, ../sass/style.scss */
+.products-section p {
+  color: #212529;
+  font-weight: 400;
+  font-size: 17px;
+  padding: 30px;
+}
+/* line 215, ../sass/style.scss */
+.products-section .product {
+  text-align: center;
+}
+/* line 218, ../sass/style.scss */
+.products-section .product .img img {
+  max-width: 75%;
+  border-radius: 1%;
+}
+/* line 225, ../sass/style.scss */
+.products-section .card {
+  position: absolute;
+  background-color: #f6e1c5;
+  text-align: center;
+  z-index: 1;
+  border-radius: 2%;
+}
+/* line 232, ../sass/style.scss */
+.products-section .card-1 {
+  width: 37%;
+  height: 6%;
+  top: 6%;
+  left: 56%;
+}
+/* line 238, ../sass/style.scss */
+.products-section .card-2 {
+  width: 50%;
+  height: 8%;
+  top: 30%;
+  line-height: 1.7;
+  left: 9%;
+}
+/* line 245, ../sass/style.scss */
+.products-section .card-3 {
+  width: 40%;
+  height: 6%;
+  bottom: 53%;
+  right: 51%;
+}
+/* line 251, ../sass/style.scss */
+.products-section .card-4 {
+  width: 50%;
+  height: 7%;
+  line-height: 1.7;
+  bottom: 31%;
+  left: 42%;
+}
+/* line 258, ../sass/style.scss */
+.products-section .card-5 {
+  width: 51%;
+  height: 6%;
+  bottom: 22%;
+  left: 41%;
+}
+/* line 264, ../sass/style.scss */
+.products-section .card-6 {
+  width: 50%;
+  height: 7%;
+  bottom: 3%;
+  line-height: 1.7;
+  left: 9%;
+}
+/* line 271, ../sass/style.scss */
+.products-section .card-body {
+  text-align: left;
+}
+/* line 273, ../sass/style.scss */
+.products-section .card-body .span {
+  line-height: 1.3;
+  font-weight: 100;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+/* line 279, ../sass/style.scss */
+.products-section .card-body h5 {
+  color: #212529;
+  font-weight: 700;
+  font-size: 17px;
+}
+
+/* line 287, ../sass/style.scss */
+.opening-section {
+  padding: 100px 0 150px 0;
+  background-color: rgba(230, 167, 86, 0.9);
+  position: relative;
+  margin: 13% 0 0 0;
+}
+/* line 292, ../sass/style.scss */
+.opening-section .opening-content {
+  background-color: #f6e1c5;
+  text-align: center;
+  max-width: 75%;
+  margin: auto;
+  border-radius: 1%;
+  padding: 50px 0;
+  outline-style: solid;
+  outline-color: #e5ac63;
+  outline-width: thick;
+}
+/* line 302, ../sass/style.scss */
+.opening-section .opening-content h3 {
+  color: #212529;
+  font-weight: 700;
+  font-size: 17px;
+}
+/* line 307, ../sass/style.scss */
+.opening-section .opening-content h5 {
+  font-size: 17px;
+  margin-right: 40%;
+}
+/* line 311, ../sass/style.scss */
+.opening-section .opening-content h4 {
+  font-size: 17px;
+  margin-left: 40%;
+}
+/* line 315, ../sass/style.scss */
+.opening-section .opening-content .span {
+  line-height: 0.6;
+  letter-spacing: 5px;
+  font-size: 45px;
+  display: block;
+  font-weight: 100;
+}
+/* line 322, ../sass/style.scss */
+.opening-section .opening-content p {
+  font-size: 17px;
+  max-width: 90%;
+  margin: auto;
+}
+/* line 327, ../sass/style.scss */
+.opening-section .opening-content .list-group {
+  text-align: left;
+  max-width: 50%;
+  font-size: 17px;
+  margin: auto;
+}
+/* line 332, ../sass/style.scss */
+.opening-section .opening-content .list-group .special {
+  font-weight: bold;
+  color: #e6a756;
+}
+/* line 336, ../sass/style.scss */
+.opening-section .opening-content .list-group .list-group-item {
+  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  display: flex;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  font-weight: 500;
+}
+/* line 346, ../sass/style.scss */
+.opening-section .opening-content .list-group .list-group-item .work {
+  margin-left: auto;
+}
+/* line 351, ../sass/style.scss */
+.opening-section .opening-content .info {
+  text-align: center;
+  padding: 25px 0;
+}
+/* line 354, ../sass/style.scss */
+.opening-section .opening-content .info .p-info {
+  font-size: 20px;
+  font-weight: 700;
+}
+/* line 358, ../sass/style.scss */
+.opening-section .opening-content .info .s-info {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+/* line 363, ../sass/style.scss */
+.opening-section .opening-content .info h6 {
+  font-size: 16px;
+}
+
+/* line 370, ../sass/style.scss */
+.footer {
+  padding: 50px 0;
+  background-color: rgba(47, 23, 15, 0.9);
+  color: #f6e1c5;
+  text-align: center;
+}
+/* line 375, ../sass/style.scss */
+.footer a {
+  color: #f6e1c5;
+  text-decoration: none;
+}
+/* line 378, ../sass/style.scss */
+.footer a:hover {
+  color: #f6e1c5;
+  text-decoration: none;
+}
+
+@media (max-width: 500px) {
+  /* line 386, ../sass/style.scss */
+  .head {
+    margin-top: 0%;
+  }
+
+  /* line 389, ../sass/style.scss */
+  .main-section {
+    padding: 0;
+  }
+  /* line 391, ../sass/style.scss */
+  .main-section .main-content {
+    display: none;
+  }
+
+  /* line 397, ../sass/style.scss */
+  .visit-section .visit-content .v-row {
+    flex-direction: column-reverse;
+  }
+  /* line 400, ../sass/style.scss */
+  .visit-section .visit-content .card {
+    width: 94%;
+    left: 3%;
+    margin-top: 3%;
+    border: none;
+  }
+  /* line 406, ../sass/style.scss */
+  .visit-section .visit-content .card-body {
+    background-color: #f6e1c5;
+    border-radius: 2%;
+  }
+
+  /* line 412, ../sass/style.scss */
+  .promise-section {
+    margin: 75% 0 15% 0;
+  }
+  /* line 414, ../sass/style.scss */
+  .promise-section .promise-content {
+    max-width: 100%;
+  }
+  /* line 416, ../sass/style.scss */
+  .promise-section .promise-content p {
+    max-width: 77%;
+    line-height: 1.7;
+  }
+
+  /* line 422, ../sass/style.scss */
+  .about-section {
+    padding: 80px 0;
+  }
+  /* line 425, ../sass/style.scss */
+  .about-section .about-content .card {
+    width: 100%;
+    top: 3%;
+    left: 0;
+    margin-bottom: 20%;
+  }
+  /* line 432, ../sass/style.scss */
+  .about-section .about-content .card-body .span {
+    font-size: 5rem;
+    width: 75%;
+  }
+  /* line 437, ../sass/style.scss */
+  .about-section .about-content .about {
+    border-radius: 2%;
+  }
+
+  /* line 442, ../sass/style.scss */
+  .opening-section {
+    margin: 33% 0 0 0;
+    padding: 80px 0;
+  }
+  /* line 445, ../sass/style.scss */
+  .opening-section .opening-content {
+    max-width: 100%;
+  }
+  /* line 447, ../sass/style.scss */
+  .opening-section .opening-content .list-group {
+    max-width: 85%;
+  }
+
+  /* line 452, ../sass/style.scss */
+  .products-section {
+    margin: 10% 0;
+  }
+  /* line 454, ../sass/style.scss */
+  .products-section .second-pro {
+    margin: 125% 0;
+  }
+  /* line 459, ../sass/style.scss */
+  .products-section .product .img img {
+    max-width: 100%;
+    border-radius: 2%;
+  }
+  /* line 465, ../sass/style.scss */
+  .products-section .card-1 {
+    width: 94%;
+    height: 7%;
+    top: 5%;
+    left: 3%;
+  }
+  /* line 471, ../sass/style.scss */
+  .products-section .card-2 {
+    width: 94%;
+    height: 11%;
+    top: 26%;
+    left: 3%;
+  }
+  /* line 477, ../sass/style.scss */
+  .products-section .card-3 {
+    width: 94%;
+    height: 8%;
+    bottom: 53%;
+    right: 3%;
+  }
+  /* line 483, ../sass/style.scss */
+  .products-section .card-4 {
+    width: 94%;
+    height: 9%;
+    bottom: 31%;
+    left: 3%;
+  }
+  /* line 489, ../sass/style.scss */
+  .products-section .card-5 {
+    width: 94%;
+    height: 9%;
+    bottom: 19%;
+    left: 3%;
+  }
+  /* line 495, ../sass/style.scss */
+  .products-section .card-6 {
+    width: 94%;
+    height: 10%;
+    bottom: -1%;
+    left: 3%;
+  }
+  /* line 502, ../sass/style.scss */
+  .products-section .card-body .span {
+    display: block;
+  }
+}
